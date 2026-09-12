@@ -16,6 +16,8 @@ The core architectural proposition is:
 
 This is not a prompt library, a retrieval system, a model wrapper, a content filter, or a conventional application feature. It is an attempt to define a missing control-plane layer for AI systems that need to act under durable governance.
 
+To make the category adoptable rather than merely proprietary, Cranium now publishes the implementation-neutral [Cranium Authority Protocol v1](https://github.com/worthwyl2022-cloud/cranium-kernel/blob/main/docs/CRANIUM_AUTHORITY_PROTOCOL_V1.md). The protocol defines interoperable proposals, attestations, semantic assessments, authority transitions, receipts, twelve conformance invariants, and four adoption levels above the reference implementation. Independent implementers may use different languages, databases, model providers, or user interfaces while preserving the authority boundary.
+
 ## The missing layer in the AI stack
 
 A simplified conventional path looks like this:
