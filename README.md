@@ -10,6 +10,11 @@ The portfolio’s principal technical work is organized around a governed contro
 - **Cranium Synapse** for attestation and risk-boundary contracts.
 - **Cranium Kernel** for transaction integrity, persistence, recovery, and tiered memory controls.
 - **Cranium Ultra** for an integrated Core and operating-environment demonstration.
+## Architecture thesis
+
+Read [`CRANIUM_ARCHITECTURE_THESIS.md`](./CRANIUM_ARCHITECTURE_THESIS.md) for the acquisition-facing explanation of Cranium as a cognitive authority substrate: what the system creates, which AI-stack gap it addresses, what is implemented, and where the remaining boundaries are.
+
+## Review standard
 
 The implementation repositories are private during acquisition preparation. Qualified reviewers can receive controlled access and reproducible evidence through a diligence process.
 

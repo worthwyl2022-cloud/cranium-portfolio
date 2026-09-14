@@ -2,7 +2,7 @@
 
 ## Snapshot
 
-- Repository: `worthwyl2022-cloud/portfolio-showcase`
+- Repository: `worthwyl2022-cloud/cranium-portfolio`
 - Default working branch observed: `main`
 - Commit count at inventory: `5`
 - Files at inventory: `8`
