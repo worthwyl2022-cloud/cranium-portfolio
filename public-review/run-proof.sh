@@ -38,7 +38,7 @@ EOF
 printf '%s\n' '3/3 checking receipt integrity'
 digest="$(sha256sum "$receipt" | awk '{print $1}')"
 printf '%s  %s\n' "$digest" "$(basename "$receipt")" > "$WORK/receipt.sha256"
-sha256sum --check "$WORK/receipt.sha256" --status
+(cd "$WORK" && sha256sum --check receipt.sha256 --status)
 
 grep -q '"decision": "accepted"' "$receipt"
 grep -q '"decision": "rejected"' "$receipt"
