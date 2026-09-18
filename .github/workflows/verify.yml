@@ -13,7 +13,9 @@ jobs:
   verify:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Audit Kernel adoption contract
+        run: ./scripts/audit-kernel-alignment.sh
+      - uses: actions/checkout@v7
       - name: Require evidence and security controls
         shell: bash
         run: |
