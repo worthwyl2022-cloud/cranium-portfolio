@@ -1,9 +1,9 @@
-# Cranium Ecosystem — Public Status Matrix
+# Convertible Cranium Ecosystem — Public Status Matrix
 
 **Last updated:** 17 September 2026  
 **Classification:** Public-facing overview (does not expose private implementation details)
 
-This matrix provides a high-level view of the primary surfaces in the Cranium portfolio. Visibility, language, and role are derived from public repository metadata and architecture documents. Detailed private implementation status is available only under controlled diligence access.
+This matrix provides a high-level view of the primary surfaces in the Convertible Cranium portfolio. Visibility, language, and role are derived from public repository metadata and architecture documents. Detailed private implementation status is available only under controlled diligence access.
 
 ---
 
@@ -11,10 +11,10 @@ This matrix provides a high-level view of the primary surfaces in the Cranium po
 
 | Surface | Visibility | Primary Language | Role | Notes |
 |---------|------------|------------------|------|-------|
-| Cranium AI | Private (with public packaging) | TypeScript | Conversational intelligence interface | Standalone product |
-| Cranium Core | Private | Kotlin / TypeScript | Governance & authority | Standalone product |
-| Cranium Synapse | Private | TypeScript | Evidence & capability bridge | Standalone product |
-| Cranium Ultra | Private | TypeScript | Integrated Core–Synapse runtime | Standalone product |
+| Convertible Cranium AI | Private (with public packaging) | TypeScript | Conversational intelligence interface | Standalone product |
+| Convertible Cranium Core | Private | Kotlin / TypeScript | Governance & authority | Standalone product |
+| Convertible Cranium Synapse | Private | TypeScript | Evidence & capability bridge | Standalone product |
+| Convertible Cranium Ultra | Private | TypeScript | Integrated Core–Synapse runtime | Standalone product |
 | Miracle Memory | Integrated | — | Authorized continuity | Productized capability |
 | Cognitive Tracker | Integrated | — | Evaluation & measurement | Productized capability |
 | WorthWyl Forge | **Public** | TypeScript | Operator & creation workspace | Standalone product |
