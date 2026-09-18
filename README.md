@@ -2,6 +2,12 @@
 
 A public-facing overview of WorthWyl’s acquisition-oriented engineering portfolio: governed AI infrastructure, authority controls, cryptographic receipts, cognitive-substrate research, and production-minded integration surfaces.
 
+## Strategic Acquisition Materials (Public)
+
+- **[Executive Brief](./public-review/CRANIUM_EXECUTIVE_BRIEF.md)** — One-page strategic summary
+- **[Full Strategic Acquisition Report](./public-review/CRANIUM_STRATEGIC_ACQUISITION_REPORT.md)** — Detailed public-facing acquisition overview
+- **[Architecture Thesis](./CRANIUM_ARCHITECTURE_THESIS.md)** — Cognitive authority substrate explanation
+
 ## Platform thesis
 
 The portfolio’s principal technical work is organized around a governed control plane for AI-enabled systems. The private implementation portfolio combines:
@@ -10,6 +16,7 @@ The portfolio’s principal technical work is organized around a governed contro
 - **Cranium Synapse** for attestation and risk-boundary contracts.
 - **Cranium Kernel** for transaction integrity, persistence, recovery, and tiered memory controls.
 - **Cranium Ultra** for an integrated Core and operating-environment demonstration.
+
 ## Architecture thesis
 
 Read [`CRANIUM_ARCHITECTURE_THESIS.md`](./CRANIUM_ARCHITECTURE_THESIS.md) for the acquisition-facing explanation of Cranium as a cognitive authority substrate: what the system creates, which AI-stack gap it addresses, what is implemented, and where the remaining boundaries are.
@@ -28,6 +35,7 @@ Published claims distinguish between runnable internal evidence and independent 
 - Case studies and technical whitepapers.
 - Deployment and integration guidance.
 - Public demonstration surfaces that do not expose proprietary implementation details.
+- Strategic acquisition report and executive brief (see links above).
 
 ## Diligence posture
 
@@ -43,4 +51,4 @@ The Cranium Ecosystem is presented through **Convertible Cranium Engineering**, 
 
 Visual overview: [`assets/cranium-architecture.svg`](./assets/cranium-architecture.svg).
 
-Public review package: [`cranium-portfolio/public-review`](https://github.com/worthwyl2022-cloud/cranium-portfolio/tree/main/public-review).
+Public review package: [`public-review/`](https://github.com/worthwyl2022-cloud/cranium-portfolio/tree/main/public-review).
