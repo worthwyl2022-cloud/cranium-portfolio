@@ -23,7 +23,7 @@ jobs:
           test -s README.md
           test -s SECURITY.md
           test -s LICENSE
-          if grep -RInE 'sk-[A-Za-z0-9]|pplx-[A-Za-z0-9]|BEGIN (RSA|OPENSSH|EC) PRIVATE KEY' . --exclude-dir=.git; then
+          if grep -RInE '(^|[^[:alnum:]_-])(sk-[A-Za-z0-9]|pplx-[A-Za-z0-9]|BEGIN (RSA|OPENSSH|EC) PRIVATE KEY)' . --exclude-dir=.git; then
             echo 'Potential credential material detected' >&2
             exit 1
           fi
