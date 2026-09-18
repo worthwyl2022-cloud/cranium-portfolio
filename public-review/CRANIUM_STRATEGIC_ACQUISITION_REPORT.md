@@ -1,4 +1,4 @@
-# Cranium: Strategic Acquisition Report
+# Convertible Cranium: Strategic Acquisition Report
 ## Cognitive Authority Substrate for AI Systems
 
 **Founder:** Wyl Mathes  
@@ -12,9 +12,9 @@
 
 ## 1. Executive Summary
 
-Cranium is a founder-led portfolio that implements a **cognitive authority substrate** — a control-plane layer designed to determine when AI-derived proposals may acquire real-world authority.
+**Convertible Cranium** is a founder-led portfolio that implements a **cognitive authority substrate** — a control-plane layer designed to determine when AI-derived proposals may acquire real-world authority.
 
-Contemporary AI systems can generate, retrieve, plan, and invoke tools. They generally lack a durable, inspectable, replay-protected boundary that governs the transition from cognition to action. Cranium addresses this gap by enforcing a strict separation:
+Contemporary AI systems can generate, retrieve, plan, and invoke tools. They generally lack a durable, inspectable, replay-protected boundary that governs the transition from cognition to action. Convertible Cranium addresses this gap by enforcing a strict separation:
 
 > **AI cognition may produce evidence. It may not grant itself authority. Authority must be evaluated, durably committed, replay-protected, and receipt-bound by a canonical governance kernel.**
 
@@ -34,7 +34,7 @@ A simplified conventional path for AI action is:
 model output → application logic → tool or API side effect
 ```
 
-Cranium inserts an explicit authority boundary:
+Convertible Cranium inserts an explicit authority boundary:
 
 ```text
 model output
@@ -47,7 +47,7 @@ model output
   → controlled side effect
 ```
 
-The distinction is consequential. A model can be correct and still lack authority. A policy can be valid and still fail to prove which state was evaluated. A log can be complete and still be written after an irreversible action. Cranium treats these concerns as part of the transition contract rather than as post-hoc observability.
+The distinction is consequential. A model can be correct and still lack authority. A policy can be valid and still fail to prove which state was evaluated. A log can be complete and still be written after an irreversible action. Convertible Cranium treats these concerns as part of the transition contract rather than as post-hoc observability.
 
 This architecture is differentiated by the boundary it establishes, not by claims of general intelligence, legal correctness, or universal safety.
 
@@ -61,10 +61,10 @@ The portfolio is structured as a family of standalone products that retain indep
 
 | Product | Standalone Identity | Ecosystem Role |
 |---------|---------------------|----------------|
-| **Cranium AI** | Conversational intelligence and collaborative agent | Human-facing intelligence interface and orchestration partner |
-| **Cranium Core** | Governance and authority product | Accountable authority for consequential decisions and state transitions |
-| **Cranium Synapse** | Capability, provider, and integration product | Governed capabilities the ecosystem can discover and invoke |
-| **Cranium Ultra** | Integrated Core–Synapse runtime | Intertwined execution and governance center |
+| **Convertible Cranium AI** | Conversational intelligence and collaborative agent | Human-facing intelligence interface and orchestration partner |
+| **Convertible Cranium Core** | Governance and authority product | Accountable authority for consequential decisions and state transitions |
+| **Convertible Cranium Synapse** | Capability, provider, and integration product | Governed capabilities the ecosystem can discover and invoke |
+| **Convertible Cranium Ultra** | Integrated Core–Synapse runtime | Intertwined execution and governance center |
 | **Miracle Memory** | Memory and continuity product | Authorized continuity without turning memory into authority |
 | **Cognitive Tracker** | Evaluation and tracking product | Behavioral evidence and improvement measurement |
 | **WorthWyl Forge** | Creation, workspace, and operator product | Visible human workspace and operations surface |
@@ -87,11 +87,11 @@ Each product is complete enough to stand alone. Shared contracts create interope
 
 ### Dual-Engine Design
 
-**Cranium Synapse**  
+**Convertible Cranium Synapse**  
 Inference-native contract and evidence bridge. Carries model provenance, policy binding, risk disposition, intervention signals, and deterministic trace commitments.  
 May restrict or escalate. May never grant, expand, or independently execute authority.
 
-**Cranium Core / Kernel**  
+**Convertible Cranium Core / Kernel**  
 Independent authority and state-governance engine. Sole issuer of authority transitions. Implements:
 
 - Canonical request hashing (SHA-256)
@@ -139,15 +139,15 @@ Constitutional change requires explicit human owner decision, versioned record, 
 
 Dedicated delivery vehicles exist for buyer evaluation:
 
-- **Cranium Boot Drive** — Source package for a bootable Linux appliance that opens into Cranium AI with the product family available beneath it. Supports Live, Persistent, Recovery, Offline, and Connected modes. Read-only by default; no live credentials; external actions require visible approval.
-- **Cranium Acquisition Demo Drive** — Interactive offline demonstration with guided tour, architecture map, product cards, and safe deployment rehearsal. Can also be run statically.
+- **Convertible Cranium Boot Drive** — Source package for a bootable Linux appliance that opens into Convertible Cranium AI with the product family available beneath it. Supports Live, Persistent, Recovery, Offline, and Connected modes. Read-only by default; no live credentials; external actions require visible approval.
+- **Convertible Cranium Acquisition Demo Drive** — Interactive offline demonstration with guided tour, architecture map, product cards, and safe deployment rehearsal. Can also be run statically.
 
 ### Supported Acquisition Paths
 
 | Path | Contents | Buyer Value |
 |------|----------|-------------|
 | Individual Product | One standalone product + materials | Targeted adoption with limited integration scope |
-| Cranium Ultra | Integrated Core–Synapse runtime | Complete governed intelligence runtime |
+| Convertible Cranium Ultra | Integrated Core–Synapse runtime | Complete governed intelligence runtime |
 | Continuity & Evaluation | Miracle Memory + Cognitive Tracker | Persistent context plus measurable improvement |
 | Operator & Creation | WorthWyl Forge + selected interfaces | User-facing creation and operations environment |
 | Full Ecosystem | All products + shared contracts + evidence | Complete Cognitive Substrate Governance Ecosystem |
@@ -195,7 +195,7 @@ Every package is required to state its standalone scope, integration scope, depe
 
 ## 8. Strategic Positioning
 
-Cranium is positioned as infrastructure for organizations that require durable governance over AI-driven action. It is not a model gateway, a conventional guardrail, an agent framework, or a workflow engine. Its primary differentiator is the treatment of the authority transition itself as a first-class, receipt-bound, replay-protected canonical object.
+Convertible Cranium is positioned as infrastructure for organizations that require durable governance over AI-driven action. It is not a model gateway, a conventional guardrail, an agent framework, or a workflow engine. Its primary differentiator is the treatment of the authority transition itself as a first-class, receipt-bound, replay-protected canonical object.
 
 The dual-mode design (standalone products + composable ecosystem) provides acquisition flexibility uncommon in early-stage technical portfolios.
 
@@ -215,7 +215,7 @@ The dual-mode design (standalone products + composable ecosystem) provides acqui
 
 ## 10. Closing Position
 
-Cranium represents a coherent architectural attempt to define and implement a missing layer in the AI stack: a cognitive authority substrate that prevents generated intelligence from granting itself real-world power.
+Convertible Cranium represents a coherent architectural attempt to define and implement a missing layer in the AI stack: a cognitive authority substrate that prevents generated intelligence from granting itself real-world power.
 
 It is not yet a fully hardened production platform. It is substantially more than a collection of prototypes. The combination of dual-engine design, constitutional constraints, multi-product standalone structure, and professional acquisition packaging makes it a credible strategic asset for any organization that needs inspectable, durable governance over AI-enabled action.
 
@@ -226,7 +226,7 @@ Evaluate the authority boundary and constitutional model first. Treat the system
 
 ## Ownership and Contact
 
-The Cranium Ecosystem is presented through **Convertible Cranium Engineering**, the software and engineering division of **WorthWyl Media**. Commercial licensing and related technical assets are intended to be handled through **WorthWyl LLC**. **WorthWyl Foundation** is a separate nonprofit branch.
+The Convertible Cranium Ecosystem is presented through **Convertible Cranium Engineering**, the software and engineering division of **WorthWyl Media**. Commercial licensing and related technical assets are intended to be handled through **WorthWyl LLC**. **WorthWyl Foundation** is a separate nonprofit branch.
 
 For acquisition or technical diligence inquiries, contact details are published in the associated technical documentation hub and portfolio materials.
 
