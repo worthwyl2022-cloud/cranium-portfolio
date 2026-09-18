@@ -1,4 +1,4 @@
-# Cranium: A Cognitive Authority Substrate for AI Systems
+# Convertible Cranium: A Cognitive Authority Substrate for AI Systems
 
 **Founder:** Wyl Mathes  
 **Canonical authority source:** [`cranium-kernel`](https://github.com/worthwyl2022-cloud/cranium-kernel)  
@@ -6,9 +6,9 @@
 
 ## Executive thesis
 
-Cranium is a **cognitive authority substrate** for artificial-intelligence systems. It addresses a structural gap between model cognition and real-world action: contemporary AI systems can generate, retrieve, route, and invoke tools, but those capabilities do not by themselves create a durable, inspectable, replay-safe boundary that determines when an AI-derived proposal is permitted to acquire authority.
+Convertible Cranium is a **cognitive authority substrate** for artificial-intelligence systems. It addresses a structural gap between model cognition and real-world action: contemporary AI systems can generate, retrieve, route, and invoke tools, but those capabilities do not by themselves create a durable, inspectable, replay-safe boundary that determines when an AI-derived proposal is permitted to acquire authority.
 
-Cranium separates **cognition from authority**. Model output, semantic assessment, and Synapse evidence may propose, restrict, or escalate an action. Only the Kernel evaluates the authority transition, commits canonical state, and issues the canonical receipt that can authorize a controlled side effect.
+Convertible Cranium separates **cognition from authority**. Model output, semantic assessment, and Synapse evidence may propose, restrict, or escalate an action. Only the Kernel evaluates the authority transition, commits canonical state, and issues the canonical receipt that can authorize a controlled side effect.
 
 The core architectural proposition is:
 
@@ -16,7 +16,7 @@ The core architectural proposition is:
 
 This is not a prompt library, a retrieval system, a model wrapper, a content filter, or a conventional application feature. It is an attempt to define a missing control-plane layer for AI systems that need to act under durable governance.
 
-To make the category adoptable rather than merely proprietary, Cranium now publishes the implementation-neutral [Cranium Authority Protocol v1](https://github.com/worthwyl2022-cloud/cranium-kernel/blob/main/docs/CRANIUM_AUTHORITY_PROTOCOL_V1.md). The protocol defines interoperable proposals, attestations, semantic assessments, authority transitions, receipts, twelve conformance invariants, and four adoption levels above the reference implementation. Independent implementers may use different languages, databases, model providers, or user interfaces while preserving the authority boundary.
+To make the category adoptable rather than merely proprietary, Convertible Cranium now publishes the implementation-neutral [Cranium Authority Protocol v1](https://github.com/worthwyl2022-cloud/cranium-kernel/blob/main/docs/CRANIUM_AUTHORITY_PROTOCOL_V1.md). The protocol defines interoperable proposals, attestations, semantic assessments, authority transitions, receipts, twelve conformance invariants, and four adoption levels above the reference implementation. Independent implementers may use different languages, databases, model providers, or user interfaces while preserving the authority boundary.
 
 ## The missing layer in the AI stack
 
@@ -26,7 +26,7 @@ A simplified conventional path looks like this:
 model output → application logic → tool or API side effect
 ```
 
-The application may add prompts, filters, policy checks, or logs, but these are often advisory, ephemeral, or external to the state transition itself. Cranium inserts an explicit authority boundary:
+The application may add prompts, filters, policy checks, or logs, but these are often advisory, ephemeral, or external to the state transition itself. Convertible Cranium inserts an explicit authority boundary:
 
 ```text
 model output
@@ -39,7 +39,7 @@ model output
   → controlled side effect
 ```
 
-The distinction is consequential. A model can be correct and still lack authority. A policy can be valid and still fail to prove which state was evaluated. A log can be complete and still be written after an irreversible action. Cranium treats those concerns as part of the transition contract rather than as post hoc observability.
+The distinction is consequential. A model can be correct and still lack authority. A policy can be valid and still fail to prove which state was evaluated. A log can be complete and still be written after an irreversible action. Convertible Cranium treats those concerns as part of the transition contract rather than as post hoc observability.
 
 ## What the architecture contains
 
@@ -51,7 +51,7 @@ The distinction is consequential. A model can be correct and still lack authorit
 | **Hash and replay layer** | Binds request identity, detects tampering, rejects conflicting reuse, and preserves chain integrity | Cryptographic integrity boundary |
 | **Durable Authority** | Commits frames, restores state, and detects corruption across restart | Durable state boundary |
 | **Miracle Memory** | Preserves identity stability, contradiction handling, journal integrity, quarantine, and recovery behavior | Consistency and memory boundary |
-| **Cranium Synapse** | Signs and verifies bounded model-state evidence and trust-ring attestations | Evidence provider, never authority issuer |
+| **Convertible Cranium Synapse** | Signs and verifies bounded model-state evidence and trust-ring attestations | Evidence provider, never authority issuer |
 | **Semantic Governance** | Detects role claims, legal and policy risk, boundary violations, and keyed semantic findings | May restrict or escalate; may not grant authority alone |
 | **Authorization** | Governs requester, subject, scope, role, and side-effect permissions | Kernel-owned decision boundary |
 | **Immunity** | Governs contamination, poisoning, adversarial resistance, quarantine, and release | Kernel-owned defensive boundary |
@@ -67,9 +67,9 @@ Miracle Memory provides a tested consistency and persistence surface for seeded 
 
 The operator, Ultra, diligence, and portfolio repositories are deliberately subordinate to the Kernel. They may display, submit, assess, or document. They do not define canonical authority semantics.
 
-## What Cranium is not claiming
+## What Convertible Cranium is not claiming
 
-Cranium does not claim to provide legal correctness, medical correctness, financial correctness, compliance certification, general intelligence, or universal safety. It does not claim that a green test run proves security. It does not claim that every ecosystem repository is production-ready. It does not treat fixtures, simulations, screenshots, generated reports, or local adapters as canonical execution evidence.
+Convertible Cranium does not claim to provide legal correctness, medical correctness, financial correctness, compliance certification, general intelligence, or universal safety. It does not claim that a green test run proves security. It does not claim that every ecosystem repository is production-ready. It does not treat fixtures, simulations, screenshots, generated reports, or local adapters as canonical execution evidence.
 
 The architecture is differentiated by the boundary it establishes, not by pretending that every planned domain rubric or deployment hardening task is already complete. The repository uses explicit evidence labels and a production-boundary gate to expose residual non-production behavior rather than silently promote it to proof.
 
@@ -79,7 +79,7 @@ AI systems are moving from generating text to making recommendations, calling to
 
 Existing categories address adjacent problems:
 
-| Category | Primary strength | Boundary Cranium adds |
+| Category | Primary strength | Boundary Convertible Cranium adds |
 |---|---|---|
 | Model gateway | Routes model requests and responses | Does not necessarily own canonical authority state |
 | Guardrail | Blocks, transforms, or scores output | Does not necessarily commit a replay-safe authority transition |
@@ -88,13 +88,13 @@ Existing categories address adjacent problems:
 | Vector memory | Retrieves contextual information | Does not establish permission to mutate governed state |
 | Observability system | Records telemetry and events | Usually records after or beside the transition rather than binding evidence before commit |
 | Workflow engine | Runs durable processes | Does not natively distinguish cognition from authority |
-| **Cranium** | Unifies evidence, semantic assessment, authority evaluation, durable state, replay protection, and receipt issuance | Makes the authority transition an explicit canonical object |
+| **Convertible Cranium** | Unifies evidence, semantic assessment, authority evaluation, durable state, replay protection, and receipt issuance | Makes the authority transition an explicit canonical object |
 
 This comparison is an architectural thesis, not a claim that adjacent systems lack useful controls. A full novelty and prior-art analysis requires independent technical and legal review.
 
 ## The one-person achievement
 
-Cranium was conceived and built as an independent founder-led effort by Wyl Mathes under severe resource constraints. The achievement is not merely the number of repositories or the visual surface. It is the attempt to define and implement a coherent boundary where AI cognition, semantic interpretation, durable state, and real-world authority are treated as different technical responsibilities.
+Convertible Cranium was conceived and built as an independent founder-led effort by Wyl Mathes under severe resource constraints. The achievement is not merely the number of repositories or the visual surface. It is the attempt to define and implement a coherent boundary where AI cognition, semantic interpretation, durable state, and real-world authority are treated as different technical responsibilities.
 
 The strongest proof of that achievement is not a personal appeal. It is a repository that an independent engineer can clone, inspect, run, challenge, and reproduce without relying on the founder’s explanation. That is the standard toward which the ecosystem is being hardened.
 
@@ -112,12 +112,12 @@ The next maturity steps are concrete:
 
 ## Closing position
 
-Cranium is an architectural proposal and an implemented authority-kernel foundation for a new category of AI infrastructure: the **cognitive authority substrate**. Its central idea is simple but consequential: **generated intelligence should be able to inform a decision without being able to declare itself authorized**.
+Convertible Cranium is an architectural proposal and an implemented authority-kernel foundation for a new category of AI infrastructure: the **cognitive authority substrate**. Its central idea is simple but consequential: **generated intelligence should be able to inform a decision without being able to declare itself authorized**.
 
 The system becomes valuable when that principle is not merely described, but enforced by code, durable state, signed evidence, replay resistance, explicit failure, and independent reproduction.
 
 ## References
 
-[1]: https://github.com/worthwyl2022-cloud/cranium-kernel "Cranium Kernel — canonical authority boundary"
-[2]: https://github.com/worthwyl2022-cloud/cranium-synapse "Cranium Synapse — bounded attestation and trust-ring surface"
-[3]: https://github.com/worthwyl2022-cloud/cranium-kernel/blob/main/scripts/miracle-memory-check.ts "Cranium Kernel — Miracle Memory integration check"
+[1]: https://github.com/worthwyl2022-cloud/cranium-kernel "Convertible Cranium Kernel — canonical authority boundary"
+[2]: https://github.com/worthwyl2022-cloud/cranium-synapse "Convertible Cranium Synapse — bounded attestation and trust-ring surface"
+[3]: https://github.com/worthwyl2022-cloud/cranium-kernel/blob/main/scripts/miracle-memory-check.ts "Convertible Cranium Kernel — Miracle Memory integration check"
