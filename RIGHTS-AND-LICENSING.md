@@ -2,11 +2,11 @@
 
 ## Entity and brand structure
 
-**WorthWyl LLC** is the commercial licensing and technology entity for the Cranium software and related technical assets, subject to the applicable agreements and repository-specific notices.
+**WorthWyl LLC** is the commercial licensing and technology entity for Convertible Cranium software and related technical assets, subject to the applicable agreements and repository-specific notices.
 
-**WorthWyl Media** is the creative and publishing branch behind books, media production, and Kindle Direct Publishing (KDP). **Convertible Cranium Engineering** is the software and engineering division of WorthWyl Media through which the Cranium Ecosystem is presented.
+**WorthWyl Media** is the creative and publishing branch behind books, media production, and Kindle Direct Publishing (KDP). **Convertible Cranium Engineering** is the software and engineering division of WorthWyl Media through which the Convertible Cranium Ecosystem is presented.
 
-**WorthWyl Foundation** is a separate nonprofit branch for public-benefit and mission-driven work. It should not be presumed to own or license commercial Cranium software unless a written agreement states otherwise.
+**WorthWyl Foundation** is a separate nonprofit branch for public-benefit and mission-driven work. It should not be presumed to own or license commercial Convertible Cranium software unless a written agreement states otherwise.
 
 **William Mathes**, publicly known as **Wyl Mathes** or **William Wyl Mathes**, is the founder and principal associated with the WorthWyl entities. “Wyl” is pronounced like “while.”
 
