@@ -1,34 +1,41 @@
 # Convertible Cranium Portfolio Showcase
 
-A public-facing overview of WorthWyl’s acquisition-oriented engineering portfolio: governed AI infrastructure, authority controls, cryptographic receipts, cognitive-substrate research, and production-minded integration surfaces under the **Convertible Cranium** brand.
+A public-facing overview of WorthWyl’s acquisition-oriented engineering portfolio: **category-defining AI governance infrastructure**, a dual-engine governance substrate, an interoperable ecosystem, and multiple standalone products under the **Convertible Cranium** brand.
 
-## Strategic Acquisition Materials (Public)
+## Strategic acquisition materials
 
-- **[Executive Brief](./public-review/CRANIUM_EXECUTIVE_BRIEF.md)** — One-page strategic summary
-- **[Full Strategic Acquisition Report](./public-review/CRANIUM_STRATEGIC_ACQUISITION_REPORT.md)** — Detailed public-facing acquisition overview
-- **[Status Matrix](./public-review/STATUS_MATRIX.md)** — High-level surface inventory
-- **[Architecture Thesis](./CRANIUM_ARCHITECTURE_THESIS.md)** — Cognitive authority substrate explanation
+- **[Executive Brief](./public-review/CRANIUM_EXECUTIVE_BRIEF.md)** — one-page strategic summary
+- **[Full Strategic Acquisition Report](./public-review/CRANIUM_STRATEGIC_ACQUISITION_REPORT.md)** — detailed public-facing acquisition overview
+- **[Status Matrix](./public-review/STATUS_MATRIX.md)** — high-level surface inventory
+- **[Architecture Thesis](./CRANIUM_ARCHITECTURE_THESIS.md)** — explanation of the governance-substrate category
 
-## Platform thesis
+## Category thesis
 
-The portfolio’s principal technical work is organized around a governed control plane for AI-enabled systems. The private implementation portfolio combines:
+Convertible Cranium is designed to govern the boundary between AI cognition and real-world action. It is not merely a model, agent framework, wrapper, or application. Its principal thesis is a **governance control plane for AI-enabled systems** that makes authority transitions explicit, evidence-bound, auditable, and resistant to malformed, stale, replayed, or unauthorized state changes.
 
-- **Convertible Cranium Core** for authority transitions, evidence requirements, replay protection, and constitutional constraints.
-- **Convertible Cranium Synapse** for attestation and risk-boundary contracts.
-- **Convertible Cranium Kernel** for transaction integrity, persistence, recovery, and tiered memory controls.
-- **Convertible Cranium Ultra** for an integrated Core and operating-environment demonstration.
+The portfolio is intentionally organized into four layers:
 
-## Architecture thesis
+| Layer | Role | Representative surfaces |
+|---|---|---|
+| **Infrastructure** | Runtime, integration, persistence, recovery, deployment, and operational foundations | Kernel, Core, provider integrations, deployment surfaces |
+| **Dual-engine governance substrate** | Separates cognition/evidence from authority/state/action | Synapse + Core / Kernel |
+| **Ecosystem** | Contracts, documentation, research, demonstrations, and interoperable supporting components | Canonlane, substrate reference, simulator, content hub |
+| **Standalone products** | Independently deployable products that use or demonstrate the substrate | Forge, Operator OS, Acquisition Drive, Game Changer |
 
-Read [`CRANIUM_ARCHITECTURE_THESIS.md`](./CRANIUM_ARCHITECTURE_THESIS.md) for the acquisition-facing explanation of Convertible Cranium as a cognitive authority substrate: what the system creates, which AI-stack gap it addresses, what is implemented, and where the remaining boundaries are.
+## Dual-engine boundary
 
-## Review standard
+- **Convertible Cranium Synapse** produces bounded cognition, attestation, evidence, risk signals, and escalation context. It does not grant authority, mutate Core state, or execute tools.
+- **Convertible Cranium Core / Kernel** validates evidence, evaluates authority, commits governed state, produces authoritative receipts, enforces replay and policy boundaries, and controls eligible side effects.
 
-The implementation repositories are private during acquisition preparation. Qualified reviewers can receive controlled access and reproducible evidence through a diligence process.
+> **Synapse carries cognition. Core governs action.**
 
-## Evidence standard
+The private implementation portfolio combines Core for authority transitions and constitutional constraints, Synapse for attestation and risk-boundary contracts, Kernel for transaction integrity and recovery, and Ultra for integrated operating-environment demonstrations.
 
-Published claims distinguish between runnable internal evidence and independent assurance. A technical claim should identify its source version, verification command, result, and residual limitation. Internal stress testing is not represented as independent security certification.
+## Review and evidence standard
+
+The implementation repositories are private during acquisition preparation. Qualified reviewers can receive controlled access and reproducible evidence through a diligence process. Published claims distinguish runnable internal evidence from independent assurance. A technical claim should identify its source version, verification command, result, and residual limitation. Internal stress testing is not represented as independent security certification.
+
+The private technical portfolio includes reproducible verification gates, adversarial receipt campaigns, signature and replay checks, atomic recovery tests, threat-model documentation, and clean-room reproduction tooling. Buyer access should be granted through named, controlled reviewers rather than unrestricted public source access.
 
 ## Public materials
 
@@ -37,10 +44,6 @@ Published claims distinguish between runnable internal evidence and independent 
 - Deployment and integration guidance.
 - Public demonstration surfaces that do not expose proprietary implementation details.
 - Strategic acquisition report, executive brief, and status matrix (see links above).
-
-## Diligence posture
-
-The private technical portfolio includes reproducible verification gates, adversarial receipt campaigns, signature and replay checks, atomic recovery tests, threat-model documentation, and clean-room reproduction tooling. Buyer access should be granted through named, controlled reviewers rather than unrestricted public source access.
 
 ## Contact
 
