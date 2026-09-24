@@ -1,0 +1,38 @@
+{
+  "schema": "convertible-cranium-ecosystem-manifest-v1",
+  "authority": "worthwyl2022-cloud/cranium-kernel",
+  "invariant": "Cognition may come from anywhere. Authority comes only through Cranium.",
+  "repository_count": 24,
+  "role_taxonomy": ["authority","protocol","engine","state-evidence","integration","product","appliance","diligence","presentation","archive"],
+  "repositories": [
+    {"name":"cranium-kernel","role":"authority","authority_status":"canonical"},
+    {"name":"cranium-synapse","role":"protocol","authority_status":"non-authoritative"},
+    {"name":"cranium-canonlane-contracts","role":"protocol","authority_status":"non-authoritative"},
+    {"name":"cranium-cognitive-core","role":"engine","authority_status":"non-authoritative"},
+    {"name":"cranium-hardened-core","role":"engine","authority_status":"non-authoritative"},
+    {"name":"Cranium-Core-","role":"engine","authority_status":"non-authoritative"},
+    {"name":"cranium-substrate-reference","role":"protocol","authority_status":"non-authoritative"},
+    {"name":"cranium-substrate-simulator","role":"state-evidence","authority_status":"non-authoritative"},
+    {"name":"cranium-provider-integrations","role":"integration","authority_status":"non-authoritative"},
+    {"name":"cranium-ultra-platform","role":"product","authority_status":"non-authoritative"},
+    {"name":"cranium-ai","role":"product","authority_status":"non-authoritative"},
+    {"name":"Convertible-Cranium-ai-v-2.0","role":"product","authority_status":"non-authoritative"},
+    {"name":"cranium-operator-os","role":"product","authority_status":"non-authoritative"},
+    {"name":"cranium-boot-drive","role":"appliance","authority_status":"non-authoritative"},
+    {"name":"cranium-acquisition-demo-drive","role":"appliance","authority_status":"non-authoritative"},
+    {"name":"worthwyl-forge","role":"product","authority_status":"non-authoritative"},
+    {"name":"worthwyl-game-changer","role":"product","authority_status":"non-authoritative"},
+    {"name":"cranium-acquisition-template","role":"diligence","authority_status":"non-authoritative"},
+    {"name":"cranium-diligence-workbench","role":"diligence","authority_status":"non-authoritative"},
+    {"name":"cognitive-substrate-governance-ecosystem","role":"diligence","authority_status":"non-authoritative"},
+    {"name":"cranium-portfolio","role":"presentation","authority_status":"non-authoritative"},
+    {"name":"cranium-content-hub","role":"presentation","authority_status":"non-authoritative"},
+    {"name":"cranium-archive","role":"archive","authority_status":"non-authoritative"},
+    {"name":"worthwyl2022-cloud","role":"presentation","authority_status":"non-authoritative"}
+  ],
+  "evidence_policy": {
+    "claim_requires": ["source_repository","source_revision","verification_command","observed_result","residual_limitation"],
+    "independent_certification_claimed": false,
+    "unverified_claims_must_remain_labeled": true
+  }
+}

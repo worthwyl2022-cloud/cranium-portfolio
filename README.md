@@ -2,6 +2,11 @@
 
 A public-facing overview of WorthWyl’s acquisition-oriented engineering portfolio: **category-defining AI governance infrastructure**, a dual-engine governance substrate, an interoperable ecosystem, and multiple standalone products under the **Convertible Cranium** brand.
 
+## System architecture and evidence spine
+
+- **[Infrastructure Architecture v1](./ECOSYSTEM_ARCHITECTURE_V1.md)** — canonical portfolio-level architecture and trust-boundary model
+- **[Ecosystem Manifest v1](./ECOSYSTEM_MANIFEST_V1.json)** — machine-readable repository roles and authority status
+
 ## Strategic acquisition materials
 
 - **[Executive Brief](./public-review/CRANIUM_EXECUTIVE_BRIEF.md)** — one-page strategic summary

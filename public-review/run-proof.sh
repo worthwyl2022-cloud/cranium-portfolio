@@ -2,7 +2,8 @@
 set -euo pipefail
 
 ROOT="$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)"
-WORK="${TMPDIR:-/tmp}/cranium-public-review"
+BASE_TMP="${TMPDIR:-$ROOT/.tmp}"
+WORK="$BASE_TMP/cranium-public-review"
 rm -rf "$WORK"
 mkdir -p "$WORK"
 

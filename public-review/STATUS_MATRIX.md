@@ -1,6 +1,6 @@
 # Convertible Cranium Ecosystem — Public Status Matrix
 
-**Last updated:** 17 September 2026  
+**Last updated:** 24 September 2026
 **Classification:** Public-facing overview (does not expose private implementation details)
 
 This matrix provides a high-level view of the primary surfaces in the Convertible Cranium portfolio. Visibility, language, and role are derived from public repository metadata and architecture documents. Detailed private implementation status is available only under controlled diligence access.
@@ -56,7 +56,7 @@ This matrix provides a high-level view of the primary surfaces in the Convertibl
 | cranium-portfolio | **Public** | Public acquisition-facing portfolio |
 | cranium-content-hub | **Public** | Technical & acquisition documentation |
 | cranium-boot-drive | Private | Commercial bootable Linux appliance source |
-| cranium-acquisition-demo-drive | Private | Interactive offline buyer demonstration |
+| cranium-acquisition-demo-drive | **Public** | Interactive offline buyer demonstration |
 | cranium-acquisition-template | Private | Acquisition-grade delivery template |
 | cranium-diligence-workbench | Private | Evidence review & verification workbench |
 | cognitive-substrate-governance-ecosystem | Private | Buyer-facing acquisition hub |
