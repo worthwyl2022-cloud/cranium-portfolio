@@ -97,19 +97,6 @@
       "archived": false
     },
     {
-      "name": "cranium-substrate-simulator",
-      "role": "state-evidence",
-      "authority_status": "non-authoritative",
-      "visibility": "private",
-      "default_branch": "main",
-      "remote_head": "2026-09-23T01:05:47Z",
-      "local_branch": "main",
-      "local_commit": "4196e7bd74ed735454cc371b1f009ae660ada7e9",
-      "workflows": 1,
-      "worktree_clean": true,
-      "archived": false
-    },
-    {
       "name": "cranium-provider-integrations",
       "role": "integration",
       "authority_status": "non-authoritative",

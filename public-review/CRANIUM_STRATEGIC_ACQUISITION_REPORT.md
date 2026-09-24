@@ -74,7 +74,7 @@ The portfolio is structured as a family of standalone products that retain indep
 Many additional repositories function as standalone or near-standalone products:
 
 - **Authority Layer:** `cranium-kernel`, `cranium-synapse`, `cranium-ultra-platform`, `Cranium-Core-`, `cranium-hardened-core`
-- **Cognitive / Epistemic Layer:** `cranium-cognitive-core`, `cranium-substrate-reference`, `cranium-substrate-simulator`, `cranium-canonlane-contracts`
+- **Cognitive / Epistemic Layer:** `cranium-cognitive-core`, `cranium-substrate-reference`, `cranium-canonlane-contracts`
 - **Operator & Application Surfaces:** `worthwyl-forge`, `worthwyl-game-changer`, `cranium-ai`, `Convertible-Cranium-ai-v-2.0`, `cranium-operator-os`
 - **Acquisition & Diligence Vehicles:** `cranium-boot-drive`, `cranium-acquisition-demo-drive`, `cranium-acquisition-template`, `cranium-diligence-workbench`, `cognitive-substrate-governance-ecosystem`, `cranium-portfolio`, `cranium-content-hub`
 

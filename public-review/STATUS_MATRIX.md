@@ -32,7 +32,6 @@ This matrix provides a high-level view of the primary surfaces in the Convertibl
 | cranium-cognitive-core | Private | Python | Cognitive data-model surface |
 | cranium-substrate-reference | Private | Python | Epistemic governance layer |
 | cranium-hardened-core | Private | TypeScript | Hardened reference implementation |
-| cranium-substrate-simulator | Private | TypeScript | Research & simulation surface |
 | cranium-canonlane-contracts | Private | Python | Semantic contract documentation |
 
 ---
