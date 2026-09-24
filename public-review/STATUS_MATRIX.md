@@ -28,11 +28,8 @@ This matrix provides a high-level view of the primary surfaces in the Convertibl
 | cranium-kernel | Private | TypeScript | Canonical authority boundary |
 | cranium-synapse | Private | TypeScript | Bounded attestation & trust-ring |
 | cranium-ultra-platform | Private | TypeScript | Integrated operator/verification platform |
-| Cranium-Core- | Private | Kotlin | Cognitive-layer integration |
-| cranium-cognitive-core | Private | Python | Cognitive data-model surface |
 | cranium-substrate-reference | Private | Python | Epistemic governance layer |
 | cranium-hardened-core | Private | TypeScript | Hardened reference implementation |
-| cranium-canonlane-contracts | Private | Python | Semantic contract documentation |
 
 ---
 

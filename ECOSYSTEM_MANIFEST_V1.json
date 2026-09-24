@@ -2,7 +2,7 @@
   "schema": "convertible-cranium-ecosystem-manifest-v1",
   "authority": "worthwyl2022-cloud/cranium-kernel",
   "invariant": "Cognition may come from anywhere. Authority comes only through Cranium.",
-  "repository_count": 24,
+  "repository_count": 20,
   "role_taxonomy": [
     "authority",
     "protocol",
@@ -27,22 +27,7 @@
       "authority_status": "non-authoritative"
     },
     {
-      "name": "cranium-canonlane-contracts",
-      "role": "protocol",
-      "authority_status": "non-authoritative"
-    },
-    {
-      "name": "cranium-cognitive-core",
-      "role": "engine",
-      "authority_status": "non-authoritative"
-    },
-    {
       "name": "cranium-hardened-core",
-      "role": "engine",
-      "authority_status": "non-authoritative"
-    },
-    {
-      "name": "Cranium-Core-",
       "role": "engine",
       "authority_status": "non-authoritative"
     },
