@@ -15,11 +15,6 @@ on:
         description: "Comma-separated list of repository names (leave empty for all private repos owned by the authenticated user)"
         required: false
         type: string
-      auto_revert_minutes:
-        description: "Automatically revert to private after N minutes (0 = no revert). Only applies when action is make-public."
-        required: false
-        default: "0"
-        type: string
 
 permissions:
   contents: read
@@ -34,18 +29,21 @@ permissions:
 # 1. Create a fine-grained PAT limited to the specific repositories that may be toggled.
 # 2. Store it as REPO_ADMIN_TOKEN.
 # 3. Always run dry-run first.
-# 4. Prefer short auto-revert windows for temporary public exposure during diligence.
+# 4. Verify the resulting visibility state before communicating externally.
 
 jobs:
   manage-visibility:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+    concurrency:
+      group: repository-visibility-manager
+      cancel-in-progress: false
     steps:
       - name: Validate inputs and prepare
         id: prep
         run: |
           echo "Action: ${{ inputs.action }}"
           echo "Target repos input: '${{ inputs.target_repos }}'"
-          echo "Auto-revert minutes: ${{ inputs.auto_revert_minutes }}"
 
           if [ -z "${{ secrets.REPO_ADMIN_TOKEN }}" ]; then
             echo "::error::REPO_ADMIN_TOKEN secret is not configured. This workflow cannot change visibility without it."
@@ -121,19 +119,11 @@ jobs:
             esac
           done < /tmp/targets.txt
 
-      - name: Optional auto-revert scheduling notice
-        if: ${{ inputs.action == 'make-public' && inputs.auto_revert_minutes != '0' }}
-        run: |
-          echo "::notice::Auto-revert was requested (${{ inputs.auto_revert_minutes }} minutes)."
-          echo "This workflow does not itself schedule the revert."
-          echo "Recommended: run a second workflow_dispatch with action=make-private after the desired window,"
-          echo "or implement a scheduled follow-up job / external orchestrator."
-
       - name: Summary
         run: |
           echo "### Visibility Manager Run" >> $GITHUB_STEP_SUMMARY
           echo "- Action: \`${{ inputs.action }}\`" >> $GITHUB_STEP_SUMMARY
           echo "- Targets processed: ${{ steps.list.outputs.target_count }}" >> $GITHUB_STEP_SUMMARY
-          echo "- Auto-revert minutes: ${{ inputs.auto_revert_minutes }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Automatic revert: not implemented; use a separate explicit make-private run." >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "Always verify the resulting visibility state in the GitHub UI or via API before communicating externally." >> $GITHUB_STEP_SUMMARY
