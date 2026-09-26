@@ -25,3 +25,7 @@ jobs:
             echo 'Potential credential material detected' >&2
             exit 1
           fi
+
+      - name: Verify canonical kernel alignment
+        shell: bash
+        run: ./scripts/audit-kernel-alignment.sh
